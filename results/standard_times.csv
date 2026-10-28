@@ -1,0 +1,11 @@
+stage,element,seconds_each,per_line,seconds_per_order
+Pick,"Accept task, grab tote",12.0,False,12.0
+Pick,Walk to bin,8.2,True,40.9
+Pick,Search & confirm bin,4.0,True,20.0
+Pick,Pick item(s),3.0,True,15.0
+Pick,Scan item,2.0,True,10.0
+Pick,Return tote to pack station,10.0,False,10.0
+Pack,Verify order & quality check,8.0,False,8.0
+Pack,Bag items (cold-chain split),3.0,True,15.0
+Pack,Print & stick label,6.0,False,6.0
+Pack,Hand to rider / staging shelf,6.0,False,6.0

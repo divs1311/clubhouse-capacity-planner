@@ -1,0 +1,96 @@
+{
+  "norms_current": {
+    "pick_std_s": 124.09545454545453,
+    "pack_std_s": 40.25,
+    "orders_per_picker_hr": 29.009926376323214,
+    "orders_per_packer_hr": 89.44099378881988
+  },
+  "norms_slotted": {
+    "pick_std_s": 108.41363636363634,
+    "pack_std_s": 40.25,
+    "orders_per_picker_hr": 33.20615487820218,
+    "orders_per_packer_hr": 89.44099378881988
+  },
+  "normal_current": {
+    "orders": 1600.0,
+    "peak_hour_orders": 144.0,
+    "roster_heads_peak": 10,
+    "roster_labor_hours": 139,
+    "shift_labor_hours": 151,
+    "n_shifts": 20,
+    "flat_labor_hours": 180,
+    "sla_attainment": 0.9130521924568847,
+    "p90_s": 233.38163262865058,
+    "worst_dock_to_stock_min": 114.5128681329431,
+    "orders_per_labor_hour": 10.596026490066226
+  },
+  "normal_slotted": {
+    "orders": 1600.0,
+    "peak_hour_orders": 144.0,
+    "roster_heads_peak": 9,
+    "roster_labor_hours": 113,
+    "shift_labor_hours": 125,
+    "n_shifts": 17,
+    "flat_labor_hours": 162,
+    "sla_attainment": 0.9387107718405429,
+    "p90_s": 218.85800876241888,
+    "worst_dock_to_stock_min": 123.81856244080397,
+    "orders_per_labor_hour": 12.8
+  },
+  "peak_current": {
+    "orders": 2400.0,
+    "peak_hour_orders": 216.0,
+    "roster_heads_peak": 14,
+    "roster_labor_hours": 179,
+    "shift_labor_hours": 195,
+    "n_shifts": 27,
+    "flat_labor_hours": 252,
+    "sla_attainment": 0.921285150245453,
+    "p90_s": 229.18226963353118,
+    "worst_dock_to_stock_min": 154.90587778542945,
+    "orders_per_labor_hour": 12.307692307692308
+  },
+  "peak_slotted": {
+    "orders": 2400.0,
+    "peak_hour_orders": 216.0,
+    "roster_heads_peak": 11,
+    "roster_labor_hours": 147,
+    "shift_labor_hours": 157,
+    "n_shifts": 21,
+    "flat_labor_hours": 198,
+    "sla_attainment": 0.9285506036603876,
+    "p90_s": 222.44978715781107,
+    "worst_dock_to_stock_min": 174.31822129979494,
+    "orders_per_labor_hour": 15.286624203821656
+  },
+  "queue_check": [
+    {
+      "pickers": 4,
+      "orders_hr": 80,
+      "util": 0.5994949494949494,
+      "des_wait_s": 16.838475880102934,
+      "allen_cunneen_wait_s": 10.827226973798721
+    },
+    {
+      "pickers": 5,
+      "orders_hr": 110,
+      "util": 0.6594444444444444,
+      "des_wait_s": 13.084526115985676,
+      "allen_cunneen_wait_s": 11.24287983929217
+    },
+    {
+      "pickers": 6,
+      "orders_hr": 140,
+      "util": 0.6994107744107744,
+      "des_wait_s": 13.72941712032396,
+      "allen_cunneen_wait_s": 11.25058179581506
+    },
+    {
+      "pickers": 8,
+      "orders_hr": 190,
+      "util": 0.7119002525252525,
+      "des_wait_s": 13.137817145970757,
+      "allen_cunneen_wait_s": 7.617096239944235
+    }
+  ]
+}
